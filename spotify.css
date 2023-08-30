@@ -1,0 +1,233 @@
+*{
+    background-color: black;
+   
+}
+
+#fullbox{
+
+    display: flex;
+    padding:0px 10px;
+    margin:0px 0px;
+    justify-content: space-between;
+}
+.navbar{
+    /* left:10px; */
+    
+    display:inline-block;
+    border:2px solid rgb(40, 39, 39);
+    padding:20px 30px;
+    margin: 5px 15px;
+border-radius:10px; 
+width:275px;
+height:120px;
+box-shadow: 5px 5px 5px ;
+background-color:rgb(17,17,17);
+color: #15ed13;
+}
+.navbar a{
+    background-color:rgb(17,17,17);
+    text-decoration: none;
+  font-size: 30px;
+  color:rgb(250, 245, 245);
+  text-align: start;
+  /* border:2px solid black;
+  border-radius: 5px;
+  box-shadow: #15ed13;
+  padding:5px 5px; */
+
+}
+.navbar a:hover{
+    color: #15ed13;
+    border:2px solid black;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px;
+    background-color: black;
+    padding:5px 5px;
+}
+.navbar li {
+    background-color: rgb(17,17,17);
+    color:red;
+    text-decoration: none;
+    list-style: none;
+    padding:10px 5px;
+    /* border:2px solid black; */
+}
+#playlist{
+    background-color: rgb(17,17,17);
+    border:2px solid black;
+    height:62vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    color: #15ed13;
+    margin-top: 10px;
+}
+#playlist h1{
+    background-color:rgb(17,17,17);
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    line-height: 10px;
+}
+#head1{
+    background-color:rgb(17,17,17);
+    color:white;
+    /* border:3px solid black; */
+    display:flex;
+    padding:0px 5px;
+    margin:0px 5px;
+    text-align: center;
+    justify-content: center;
+    line-height: 20px;
+}
+.abc{
+    font-weight: 100;
+    background-color:black;
+    border:2px solid black;
+    padding: 8px 8px;
+    margin: 10px 20px;
+    border-radius: 20px;
+}
+.abc:hover{
+    color:#15ed13;
+    background-color: black;
+    box-shadow: 2px 2px 2px;
+    color:#15ed13;
+}
+#head2{
+    background-color:rgb(17,17,17);
+    display: flex;
+    /* justify-content: end; */
+    position: relative;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+#recents{
+    background-color:rgb(17,17,17);
+    color:white; 
+    /* justify-content: end; */
+    /* text-align:right; */
+    /* margin:5px 100px; */
+    position:absolute;
+    right:20px;
+    color:white;
+    
+}
+#recents:hover{
+    border:2px solid black;
+    border-radius:8px;
+    color: #15ed13;
+    background-color: black;
+    box-shadow: 2px 2px 2px;
+    color:#15ed13;
+}
+.list {
+    margin: 15px 15px;
+    background-color: rgb(17,17,17);
+}
+.list h2{
+    background-color: rgb(17,17,17);
+    color:white;
+    font-weight: 200;
+}
+.list h2:hover{
+    color:#15ed13;
+    font-weight: 300;
+    text-decoration:underline ;
+}
+#progress{
+    position: sticky;
+    margin:5px 5px;
+    border:3px solid green;
+    padding:5px 5px;
+    height:7vh;
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px;
+    color:#15ed13;
+}
+#myprogbar{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:3px solid green;
+    margin:10px 10px;
+    width:80vw;
+    
+    
+}
+.progbox{
+    border:3px solid green;
+    /* margin:3px 10px; */
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 3px 3px;
+    padding: 0px 10px;
+    height: 30px;
+}
+.progbox i{
+    color:blue;
+    cursor: pointer;
+    margin:0px 10px;
+}
+
+#playsong{
+    /* display:inline-block; */
+    background-color: white;
+
+    margin: 5px 15px;
+ border:3px solid rgb(11, 232, 40);
+ width:200%;
+ height:87vh;
+ border-radius: 15px;
+box-shadow: 3px 3px 3px;
+color:#15ed13;
+background-image: url("spotifybg.jpg");
+background-size: cover;
+}
+#playsong h1{
+    display:inline-block;
+ 
+}
+.song{
+    background-color: white;
+    color:blue;
+    border: 2px solid green;
+    border-radius:5px;
+    width:30vw;
+    margin:10px 20px;
+    /* padding:10px 10px; */
+    height:30px;
+    justify-content:space-between;
+    text-align: center;
+    /* flex-direction: column; */
+    display: flex;
+    /* display:inline; */
+}
+.song span{
+    background-color: white;
+    padding:5px;
+    color: black;
+    font-weight: 500;
+}
+.song i{
+    background-color: white;
+    padding:0 10px ;
+}
+.song{
+cursor: pointer;
+}
+/* Responsive */
+@media only screen and (max-width:965px)
+{
+    .song span{
+        font-weight:10;
+    }
+    .song{
+        height:40px;
+        width:40vw;
+    }
+}
+
